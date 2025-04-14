@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+
+.lowernavcontainer a{
+    text-decoration: none;
+}
+
+* a{
+    color: white;
+   
+}
+
+.pink {
+    background-color: rgba(104, 3, 20, 0.404);
+    height: 100%;
+    width: 100%;
+
+}
+/* baground blur  */
+.bgcontainer {
+    background-image: url("./bannerImage.jpg");
+    filter: blur(16px);
+    height: 100vh;
+    position: relative;
+
+}
+
+body {
+    background-color: black;
+}
+/* this above blur image */
+.contentcontainer {
+
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 0 2rem;
+}
+
+
+.navcontainer {
+    /* border: 2px solid green;  */
+    height: 20vh;
+    position: fixed;
+    z-index: 1000;
+
+}
+
+.uppernavcontainer {
+    /* border: 2px solid blue; */
+    height: 50%;
+    display: flex;
+}
+
+.uppernavleft {
+    /* border: 2px solid red; */
+    width: 50%;
+}
+
+.netflixlogo {
+    width: 27%;
+}
+
+.uppernavright {
+    /* border: 2px solid yellow; */
+    width: 50%;
+    align-items: center;
+}
+
+.btncontainer {
+    display: flex;
+}
+
+.lanbtn {
+    display: flex;
+    padding: .2rem .8rem;
+    border-radius: 50px;
+    color: white;
+    border: 1px solid white;
+    background: transparent;
+    outline: none;
+    background-color: black;
+
+
+}
+
+.uppernavsigninbtn{
+    margin-right: 40px;
+}
+
+.lanbtn p {
+    margin-left: 5px;
+}
+
+.signinbtn {
+    margin-left: 10px;
+    width: 4.5rem;
+
+    background-color: rgb(250, 240, 240);
+    padding: .50rem .70rem;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+
+}
+
+.navbtncontainers {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 2rem;
+
+}
+
+
+
+.lowernavcontainer {
+
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.menulist {
+    /* border:  2px solid green; */
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border-radius: 50px;
+    width: 30%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 2px, 3px 14px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+
+}
+
+.bannersection {
+    /* margin-top: 1rem; */
+    /* margin-right: 2rem; */
+    /* border: 2px solid red; */
+
+    height: 90vh;
+    background-image: url("./bannerImage.jpg");
+    background-size: 100% 100%;
+    border-radius: 20px;
+    position: relative;
+
+
+
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7), black);
+    border-radius: 20px;
+}
+
+.bannercontainer {
+    /* border: 2px solid green; */
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+
+}
+
+.bannercontainer h2 {
+    font-size: 4rem;
+    /* border: 2px solid green; */
+    width: 50%;
+    text-align: center;
+}
+
+.bannercontainer h4 {
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+.bannercontainer p {
+    font-size: 1rem;
+    margin: 20px;
+
+}
+
+.inputcontainer {
+    /* border: 2px solid rgb(25, 214, 25); */
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.emailinputforms {
+    padding: 1rem 3rem;
+    border: 1px solid white;
+    border-radius: 50px;
+
+    outline: none;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-size: 1rem;
+
+}
+
+.emailinputforms::placeholder {
+    color: white;
+}
+
+.getstarted {
+
+    background-color: red;
+    border-radius: 50px;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    width: 30%;
+
+
+}
+
+.carouselsection,
+.plansection,
+.reasontojoinsection ,
+.faqsection,
+.footersection{
+    
+    /* border:  2px solid red; */
+    color: white;
+}
+
+.carouselsection h2,
+.plansection h2 ,
+.reasontojoinsection h2,
+.faqsection h2{
+    margin-left: 5rem;
+    font-size: 2.5rem;
+}
+
+.crouselcardcontainer,
+.plancontainer ,
+.reasoncontainer,
+.faqcontainer{
+     /* border:  2px solid green;  */
+    height: 100%;
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem auto;
+
+}
+
+.carouselcard {
+    width: 12%;
+    /* border: 2px solid yellow; */
+    height: 38vh;
+    border-radius: 20px;
+    position: relative;
+}
+
+.carouselnumbercontainer span {
+
+    position: absolute;
+    left: -20px;
+}
+
+.carouselnumbercontainer span {
+    color: rgba(0, 0, 0, 0.8);
+    -webkit-text-stroke: 0.125rem rgb(255, 255, 255);
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+    font-size: 4rem;
+}
+
+
+.carouselimagecontainer {
+    width: 100%;
+    height: 100%;
+}
+
+.carouselimagecontainer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.plancard ,.reasoncard{
+   border: 2px solid rgb(238, 243, 238); 
+    height: 38vh;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 1rem 1rem;
+    border-radius: 20px;
+
+
+}
+
+.planCard1 {
+    background: linear-gradient(149deg, #1C4072 6.96%, #172B47 40.17%, #120c1f 73.39%);
+
+}
+
+.planCard2 {
+    background: linear-gradient(149deg, #792A95 6.96%, #38216C 40.17%, #120c1f 73.39%);
+
+}
+
+.planCard3 {
+    background: linear-gradient(149deg, #1C4072 6.96%, #172B47 40.17%, #120c1f 73.39%);
+
+}
+
+.planCard4 {
+    background: linear-gradient(149deg, #922556 6.96%, #391945 40.17%, #120c1f 73.39%);
+
+}
+
+.plancard h2{
+    margin-left: 0;
+    font-size: 1.5rem;
+}
+
+.plancard h4 {
+
+    font-size: 1.3rem;
+}
+
+.plancard p {
+
+    font-size: 1rem;
+}
+.reasoncard{
+
+    background-color: rgb(47,47,47);
+    border: none;
+    height: 33vh;
+}
+.reasoncard h2 {
+    margin-left: 0;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+.reasoncard  p{
+   
+    font-size: 1rem;
+    color:lightgray;
+}
+.reasoncardlowerconten{
+    display: flex;
+    justify-content: end;
+}
+.reasoncardlowerconten svg{
+    height: 50px;
+    width: 50px;
+
+
+}
+.faqcard{
+    /* border: 2px solid red;  */
+    width: 100%;
+}
+.faqquestion,.faqanswer{
+     /* border: 1px solid white;  */
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 10px;
+    background-color: #2e2e2e;
+    
+
+}
+.faqquestion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.faqQuestionSpan{
+    font-size: 2rem;
+     font-weight: 900;
+}
+.faqanswer{
+    display: none;
+}
+.faqcard:hover{
+    cursor: pointer;
+}
+.faqcard:hover .faqanswer{
+    display: block;
+    /* cursor: pointer; */
+}
+.faqcontainer{
+    /* display: flex; */
+    flex-direction: column;
+}
+.readytowatchsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.readytowatchsection p{
+    color:white;
+    margin-bottom: 1rem;
+}
+.sc{
+    margin-top: 20vh;
+}
+
+.footerconatiner{
+    /* border: 2px solid green; */
+    height: 60vh;
+    width: 85%;
+    /* justify-content: space-evenly; */
+    margin: 2rem auto;
+    font-size: 18px;
+
+}
+.tags ul{
+    /* border: 2px solid red; */
+    
+    list-style: none;
+    margin-right: 4rem;
+    margin-top: 2rem;
+    /* width:15em;     */
+
+   
+}
+.tags{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.tags ul li {
+    margin: 1rem 0;
+    /* width: 25%; */
+    
+    
+
+
+}
+.lan2{
+    margin-top: 3rem;
+}
+.india{
+    margin-top: 2rem;
+}
