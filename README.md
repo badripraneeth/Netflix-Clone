@@ -1,4 +1,4 @@
-# **🎬 NETFLIX FRONTEND CLONE - CSS ONLY**
+# **🎬 NETFLIX FRONTEND CLONE - CSS **
 
  A Netflix clone crafted using pure HTML and CSS. An exercise in frontend design, capturing the essence and aesthetics of Netflix's user interface.
  
